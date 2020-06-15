@@ -25,3 +25,12 @@
     width: 80%;
 }
 
+/*//////// LAST POST TITLE / ICON ////////*/
+
+.title-last_post{
+    padding: 4rem 0 0 0  ;
+}
+
+.arrow-last_post{
+    font-size: 2.5em;
+}
