@@ -63,9 +63,21 @@
           <h2>Last post</h2>
         </div>
         <div class="row col-12 d-flex justify-content-center">
-        <i class="fas fa-sort-down arrow-last_post"></i>
+          <i class="fas fa-sort-down arrow-last_post"></i>
         </div>
 
+        <div class="row">
+          <div class="col-6 post-section_home mt-5 d-flex justify-content-end">
+            <img src="src/img/balloon.jpg" class="mt-5" alt="...">
+          </div>
+
+          <div class="col-3 post-section_home mt-5 d-flex justify-content-start flex-column">
+            <h3 class="mt-5">Post Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac consectetur erat, ac ornare orci
+               Proin scelerisque venenatis pretium. Mauris congue suscipit lectus et aliquam.</p>
+               <button type="button" class="btn btn-outline-info">See more</button>
+          </div>
+        </div>
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
