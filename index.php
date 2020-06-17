@@ -44,7 +44,7 @@
                 <a class="nav-link" href="#"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
               </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#"><i class="fas fa-laptop"></i>Blog</a>
+                 <a class="nav-link" href="src/views/blog.php"><i class="fas fa-laptop"></i>Blog</a>
                </li>
                <li class="nav-item">
                 <a class="nav-link"  href="#"><i class="fas fa-cloud-download-alt"></i>Download</a>
@@ -59,11 +59,27 @@
           </div>
         </nav>
 
+
+        <!-- LAST POST TITLE / ICON ARROW -->
         <div class="row col-12 d-flex justify-content-center mt-5 title-last_post">
           <h2>Last post</h2>
         </div>
         <div class="row col-12 d-flex justify-content-center">
           <i class="fas fa-sort-down arrow-last_post"></i>
+        </div>
+
+        <!-- LAST POST PICTURE + TITLE -->
+        <div class="row">
+          <div class="col-6 post-section_home mt-5 d-flex justify-content-end">
+            <img src="src/img/balloon.jpg" class="mt-5" alt="...">
+          </div>
+
+          <div class="col-3 post-section_home mt-5 d-flex justify-content-start flex-column">
+            <h3 class="mt-5">Post Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac consectetur erat, ac ornare orci
+               Proin scelerisque venenatis pretium. Mauris congue suscipit lectus et aliquam.</p>
+               <button type="button" class="btn btn-outline-info">See more</button>
+          </div>
         </div>
 
         <div class="row">
@@ -76,6 +92,37 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac consectetur erat, ac ornare orci
                Proin scelerisque venenatis pretium. Mauris congue suscipit lectus et aliquam.</p>
                <button type="button" class="btn btn-outline-info">See more</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 d-flex justify-content-center align-items-center link-btn_home">
+            <button class="btn">Previous</button>
+          </div>
+          <div class="col-6 d-flex justify-content-center align-items-center link-btn_home">
+            <button class="btn">next</button>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="blog-footer">
+          <div class="row row-cols-2">
+            <h3 class="d-flex justify-content-center">Youtube</h3>
+            <h3 class="d-flex justify-content-center">Instagram</h3>
+          </div>
+
+          <div class="row row-cols-2">
+            <div class="footer-img d-flex justify-content-center">
+              <img src="src/img/youtube.png" alt="">
+            </div>
+            <div class="footer-img d-flex justify-content-center">
+             <img src="src/img/instagram.png" alt="">
+            </div>
+          </div>
+
+          <div class="copyright d-flex justify-content-center align-items-end">
+            <h4>Copyright @loovies - 2020</h4>
           </div>
         </div>
 
