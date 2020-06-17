@@ -1,7 +1,6 @@
 *, body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 
@@ -31,7 +30,7 @@
 
 /*//////// LAST POST TITLE / ICON ////////*/
 
-.title-last_post{
+.title-padding{
     padding: 4rem 0 0 0  ;
 }
 
@@ -57,15 +56,13 @@ h2, h3, h4{
 
 /*//////// FOOTER ////////*/
 
-/*.blog-footer{
-    padding: 5rem 0;
-}*/
-
 .footer-img img{
     width: 20%;
     margin: 0;
     padding: 0 0 2.5em 0;
 }
+
+/*//////// FOOTER ////////*/
 
 h3{
     padding: 2rem 0;
@@ -75,4 +72,26 @@ h3{
 h4{
     font-size: 1em;
     padding: 1em;
+}
+
+/*//////// NAVBAR SORT BY / BLOG ////////*/
+
+.nav-sort-by{
+    margin:0;
+    padding: 5rem;
+}
+
+.search-input{
+    width: 50%;
+    border: 1px solid lightgrey;
+}
+
+.dropdown-btn-large{
+    width: 70%;
+    border: 1px solid lightgrey;
+}
+
+.dropdown-btn-small{
+    width: 50%;
+    border: 1px solid lightgrey;
 }

@@ -61,7 +61,7 @@
 
 
         <!-- LAST POST TITLE / ICON ARROW -->
-        <div class="row col-12 d-flex justify-content-center mt-5 title-last_post">
+        <div class="row col-12 d-flex justify-content-center mt-5 title-padding">
           <h2>Last post</h2>
         </div>
         <div class="row col-12 d-flex justify-content-center">
@@ -95,6 +95,8 @@
           </div>
         </div>
 
+        <!-- BTN PREVIOUS / NEXT -->
+
         <div class="row">
           <div class="col-6 d-flex justify-content-center align-items-center link-btn_home">
             <button class="btn">Previous</button>
@@ -105,6 +107,8 @@
         </div>
 
         <hr>
+
+        <!-- FOOTER -->
 
         <div class="blog-footer">
           <div class="row row-cols-2">
