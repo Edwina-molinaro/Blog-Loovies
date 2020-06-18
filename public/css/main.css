@@ -95,3 +95,30 @@ h4{
     width: 50%;
     border: 1px solid lightgrey;
 }
+
+/*//////// DELETE MARGIN ROW ////////*/
+
+.row{
+    margin: 0;
+}
+
+/*//////// CARD TEXT / TUTORIALS ////////*/
+
+.card{
+    max-width: 25%;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.card-padding{
+    padding: 4rem;
+}
+
+.card-text{
+    max-width: 60%;
+    height: 30vh;
+    text-align: center;
+    border: 1px solid lightgrey;
+}

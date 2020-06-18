@@ -47,10 +47,10 @@
                  <a class="nav-link" href="#"><i class="fas fa-laptop"></i>Blog</a>
                </li>
                <li class="nav-item">
-                <a class="nav-link"  href="download.php"><i class="fas fa-cloud-download-alt"></i>Download</a>
+                <a class="nav-link"  href="#"><i class="fas fa-cloud-download-alt"></i>Download</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#"><i class="fas fa-graduation-cap"></i>Tutorials</a>
+                 <a class="nav-link" href="tutorials.php"><i class="fas fa-graduation-cap"></i>Tutorials</a>
                </li>
                <li class="nav-item">
                  <a class="nav-link" href="#"><i class="fas fa-at"></i>Contact&Faq</a>
@@ -60,7 +60,7 @@
         </nav>
 
         <div class="row col-12 d-flex justify-content-center mt-5 title-padding">
-          <h2>Blog</h2>
+          <h2>Download</h2>
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -100,31 +100,29 @@
             </div>
         </nav>
 
-        <!-- LAST POST PICTURE + TITLE -->
-        <<div class="row">
-          <div class="col-6 post-section_home mt-5 d-flex justify-content-end">
-            <img src="../img/balloon.jpg" class="mt-5" alt="...">
-          </div>
+        <!-- LAST POST DOWNLOAD IMG -->
 
-          <div class="col-3 post-section_home mt-5 d-flex justify-content-start flex-column">
-            <h3 class="mt-5">Post Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac consectetur erat, ac ornare orci
-               Proin scelerisque venenatis pretium. Mauris congue suscipit lectus et aliquam.</p>
-               <button type="button" class="btn btn-outline-info">See more</button>
-          </div>
-        </div>
+        <div class="row d-flex justify-content-around">
+            <div class=" col-4 card mt-5">
+                <img src="../img/balloon.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <button class="btn btn-info">Download</button>
+                </div>
+            </div>
 
-        <div class="row">
-          <div class="col-6 post-section_home mt-5 d-flex justify-content-end">
-            <img src="../img/balloon.jpg" class="mt-5" alt="...">
-          </div>
-
-          <div class="col-3 post-section_home mt-5 d-flex justify-content-start flex-column">
-            <h3 class="mt-5">Post Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac consectetur erat, ac ornare orci
-               Proin scelerisque venenatis pretium. Mauris congue suscipit lectus et aliquam.</p>
-               <button type="button" class="btn btn-outline-info">See more</button>
-          </div>
+            <div class=" col-4 card mt-5">
+                <img src="../img/balloon.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <button class="btn btn-info">Download</button>
+                </div>
+            </div>
+            
+            <div class=" col-4 card mt-5">
+                <img src="../img/balloon.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <button class="btn btn-info">Download</button>
+                </div>
+            </div>
         </div>
 
         <!-- BTN PREVIOUS / NEXT -->
@@ -162,41 +160,6 @@
           </div>
         </div>
 
-        <!--<div class="row nav-sort-by">
-            <div class="col-2 d-flex justify-content-end">
-                <p>Sort by</p>
-            </div>
-
-            <div class="col-4">
-                <div class="dropdown d-flex justify-content-end">
-                    <a class="btn dropdown-toggle dropdown-btn-large" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Animations</a>
-                        <a class="dropdown-item" href="#">Poses</a>
-                        <a class="dropdown-item" href="#">Builds</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-2">
-                <div class="dropdown d-flex justify-content-center">
-                     <a class="btn dropdown-toggle dropdown-btn-small" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         Date
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                         <a class="dropdown-item" href="#">Last</a>
-                         <a class="dropdown-item" href="#">Recent</a>
-                     </div>
-                </div>
-            </div>
-
-            <div class="col-4 d-flex justify-content-start">
-                 <input class="search-input" type="search" placeholder="Search" aria-label="Search">
-                 <button class="btn " type="submit">Search</button>
-            </div>
-         </div>-->
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loovies Blog</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="public/css/main.css">
@@ -47,7 +48,7 @@
                  <a class="nav-link" href="src/views/blog.php"><i class="fas fa-laptop"></i>Blog</a>
                </li>
                <li class="nav-item">
-                <a class="nav-link"  href="#"><i class="fas fa-cloud-download-alt"></i>Download</a>
+                <a class="nav-link"  href="src/views/download.php"><i class="fas fa-cloud-download-alt"></i>Download</a>
                </li>
                <li class="nav-item">
                  <a class="nav-link" href="#"><i class="fas fa-graduation-cap"></i>Tutorials</a>
