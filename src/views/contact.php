@@ -50,85 +50,46 @@
                 <a class="nav-link"  href="#"><i class="fas fa-cloud-download-alt"></i>Download</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#"><i class="fas fa-graduation-cap"></i>Tutorials</a>
+                 <a class="nav-link" href="tutorials.php"><i class="fas fa-graduation-cap"></i>Tutorials</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="contact.php"><i class="fas fa-at"></i>Contact&Faq</a>
+                 <a class="nav-link" href="#"><i class="fas fa-at"></i>Contact&Faq</a>
                </li>
              </ul>
           </div>
         </nav>
 
         <div class="row col-12 d-flex justify-content-center mt-5 title-padding">
-          <h2>Tutorials</h2>
+          <h2>Contact&Faq</h2>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="#">Sort by</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categories
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Date
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-
-         <!-- TUTORIALS TEXT CARDS -->
-
-        <div class="row mt-5 card-padding">
-            <div class="col-6 mt-5 d-flex justify-content-center">
-                <div class="card-text border-info mb-3">
-                    <div class="card-header">Titre</div>
-                    <div class="card-body text-info">
-                        <h5 class="card-title">Info card title</h5>
-                        <p class="card-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <button class="btn btn-info">See more</button>
+        <h3>Something to report? a link that doesn't work? something else ? write me a message.</h3>
+        
+        <div class="contact-form d-flex justify-content-center flex-column">
+            <form class="formulaire ">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="first name">
                 </div>
-            </div>
-            
-            <div class="col-6 mt-5 d-flex justify-content-center">
-                <div class="card-text border-info mb-3">
-                    <div class="card-header">Titre</div>
-                    <div class="card-body text-info">
-                        <h5 class="card-title">Info card title</h5>
-                        <p class="card-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <button class="btn btn-info">See more</button>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="last name">
                 </div>
-            </div>
-         </div>
-            
-          <!-- BTN PREVIOUS / NEXT -->
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hello, i contact you for.."></textarea>
+                </div>
+            </form>
+        </div>
 
-          <div class="row">
+        <div class="row col-12 mt-5">
+          <h3>Faq</h3>
+        </div>
+        <div class="row col-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac consectetur erat ?</p>
+        </div>
+
+        <div class="row">
           <div class="col-6 d-flex justify-content-center align-items-center link-btn_home">
             <button class="btn">Previous</button>
           </div>
