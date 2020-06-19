@@ -130,3 +130,11 @@ h4{
 .formulaire{
     width: 50%;
 }
+
+.panel-nav{
+    border: 1px solid lightgrey;
+}
+
+.active-onglet{
+    background-color: lightgray;
+}
