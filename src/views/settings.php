@@ -36,6 +36,7 @@
                 </div>
             </nav>
 
+            <!-- MODIFY INFO ADMIN CONNEXION -->
             <div class="w-100" id="page-content-wrapper">
                 <p>SETTINGS</p>
 

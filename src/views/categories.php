@@ -36,6 +36,7 @@
                 </div>
             </nav>
 
+            <!-- CATEGORIES ADD / EDIT / DELETE -->
             <div class="w-100" id="page-content-wrapper">
                 <p>Categories</p>
                 <div class="row  mt-5">

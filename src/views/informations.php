@@ -39,7 +39,7 @@
             <div class="w-100" id="page-content-wrapper">
                 <p>Customize</p>
 
-            <!-- HEADER CUSTOMIZE -->
+            <!-- FAQ ADD / UPDATE / DELETE -->
             <div class="row mt-5">
                 <div class="col-12 text-center">
                     <p>FAQ</p>
