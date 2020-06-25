@@ -17,10 +17,10 @@
                     <h2>Dashboard</h2>
                 </div>
                 <div class="list-group list-group-flush">
-                    <a href="" class="list-group-item list-group-item-action bg-light">New post</a>
+                    <a href="admin-panel.php" class="list-group-item list-group-item-action bg-light">New post</a>
                 </div>
                 <div class="list-group list-group-flush">
-                    <a href="blog-post.php" class="list-group-item list-group-item-action bg-light">Blog post</a>
+                    <a href="" class="list-group-item list-group-item-action bg-light">Blog post</a>
                 </div>
                 <div class="list-group list-group-flush">
                     <a href="categories.php" class="list-group-item list-group-item-action bg-light">Categories</a>
@@ -37,24 +37,45 @@
             </nav>
 
             <div class="w-100" id="page-content-wrapper">
-                <p>New post</p>
-                    <input type="text" placeholder="Title">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Category
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                <p>Blog post</p>
+                <!-- PANEL EDIT / DELETE -->
+                <div class="row mt-5">
+                    <div class="col-2 d-flex justify-content-around">
+                        <p>Edit</p>
+                        <p>Delete</p>
                     </div>
-                    <label>Post content</label><br>
-                    <textarea class="new-post_textarea" name="new-post" id="new-post" ></textarea>
+                    <div class="col-2 d-flex justify-content-center">
+                        <p>Date</p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <p>Title</p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <p>Thumbnail/img</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2 d-flex justify-content-around">
+                      <i class="far fa-plus-square"></i>
+                      <i class="far fa-trash-alt"></i>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center">
+                        <p>Date</p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <p>Title</p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>

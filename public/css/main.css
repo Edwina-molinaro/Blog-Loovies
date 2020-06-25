@@ -138,3 +138,18 @@ h4{
 .active-onglet{
     background-color: lightgray;
 }
+
+
+.new-post_textarea{
+    height: 30vh;
+    width: 50%;
+}
+
+.image-banner, img{
+    width: 50%;
+}
+
+.faq-textarea{
+    width: 50%;
+    height: 10vh;
+}
