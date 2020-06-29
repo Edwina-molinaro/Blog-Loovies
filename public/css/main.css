@@ -123,6 +123,8 @@ h4{
     border: 1px solid lightgrey;
 }
 
+/*//////// FORM / CONTACT ////////*/
+
 .contact-form{
     width: 50%;
 }
@@ -130,6 +132,8 @@ h4{
 .formulaire{
     width: 50%;
 }
+
+/*//////// A RETROUVER ////////*/
 
 .panel-nav{
     border: 1px solid lightgrey;
@@ -139,15 +143,20 @@ h4{
     background-color: lightgray;
 }
 
+/*//////// ADMIN PANEL / NEW POST ////////*/
 
 .new-post_textarea{
     height: 30vh;
     width: 50%;
 }
 
+/*//////// ADMIN PANEL / CUSTOMIZE ////////*/
+
 .image-banner, img{
     width: 50%;
 }
+
+/*//////// ADMIN PANEL / INFORMATIONS ////////*/
 
 .faq-textarea{
     width: 50%;
