@@ -1,3 +1,21 @@
+<?php
+require '../config/config.php';
+require '../models/connect.php';
+
+$db=connection();
+
+if(isset($_GET['id'])){
+    $id = htmlspecialchars(trim($_GET['id']));
+} else {
+    $id = '';
+}
+
+$sqlSelectUser="SELECT * FROM user";
+$reqSelectUser=$db->prepare($sqlSelectUser);
+$reqSelectUser->execute();
+
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -39,41 +57,47 @@
             <!-- MODIFY INFO ADMIN CONNEXION -->
             <div class="w-100" id="page-content-wrapper">
                 <p>SETTINGS</p>
-
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <p>Admin username and password</p>
+                <?php 
+            $user = $reqSelectUser->fetchObject();
+            var_dump($user);           
+         ?>
+                <form action="settings_base.php" method="post">
+                    <div class="row mt-5">
+                    
+                        <div class="col-12 text-center">
+                            <p>Admin username and password</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <label for="">Username</label>
-                        <input type="text" name="username">
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <label for="">Username</label>
+                            <input type="text" name="login" value="<?php echo $user->login ?>">
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <label for="">Old password</label>
-                        <input type="text" name="old-password">
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <label for="">Old password</label>
+                            <input type="text" name="old-password">
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <label for="">New password</label>
-                        <input type="text" name="new-password">
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <label for="">New password</label>
+                            <input type="text" name="password">
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <label for="">Confirm password</label>
-                        <input type="text" name="new-password">
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <label for="">Confirm password</label>
+                            <input type="text" name="password">
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12 d-flex justify-content-center">
-                        <button class="btn btn-success">Save</button>
+                    <div class="row mt-5">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button class="btn btn-success">Save</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
 
 

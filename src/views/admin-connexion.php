@@ -15,16 +15,18 @@
         <div class="row col-12 d-flex justify-content-center">
             <h2>Connexion</h2>
         </div>
-        <div class="row col-12 mt-5 d-flex justify-content-center">
-            <label for="">Login</label>
-            <input type="text" name="login">
-        </div>
-        <div class="row col-12 mt-5 d-flex justify-content-center">
-            <label for="">Password</label>
-            <input type="text" name="password">
-        </div>
-        <div class="row col-12 mt-5 d-flex justify-content-center">
-            <button class="btn btn-success">Connexion</button>
-        </div>
+        <form action="admin-connexion_base.php" method="post">
+            <div class="row col-12 mt-5 d-flex justify-content-center">
+                <label for="">Login</label>
+                <input type="text" name="login">
+            </div>
+            <div class="row col-12 mt-5 d-flex justify-content-center">
+                <label for="">Password</label>
+                <input type="text" name="password">
+            </div>
+            <div class="row col-12 mt-5 d-flex justify-content-center">
+                <button class="btn btn-success">Connexion</button>
+            </div>
+        </form>
     </body>
     </html>
