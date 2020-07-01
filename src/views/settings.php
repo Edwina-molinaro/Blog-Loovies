@@ -58,9 +58,8 @@ $reqSelectUser->execute();
             <div class="w-100" id="page-content-wrapper">
                 <p>SETTINGS</p>
                 <?php 
-            $user = $reqSelectUser->fetchObject();
-            var_dump($user);           
-         ?>
+                   $user = $reqSelectUser->fetchObject();         
+                ?>
                 <form action="settings_base.php" method="post">
                     <div class="row mt-5">
                     

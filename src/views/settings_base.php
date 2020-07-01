@@ -2,8 +2,6 @@
 require '../config/config.php';
 require '../models/connect.php';
 
-var_dump($_POST);
-
 //  insertion de l'utilisateur et de son pass hashé
 if (isset($_POST['login'])){
     $login=htmlspecialchars(trim($_POST['login']));
