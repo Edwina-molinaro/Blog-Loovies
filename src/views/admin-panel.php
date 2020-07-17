@@ -38,7 +38,8 @@
 
             <div class="w-100" id="page-content-wrapper">
                 <p>New post</p>
-                    <input type="text" placeholder="Title">
+                <form action="add-post.php" method="post">
+                    <input type="text" name="titre" placeholder="Title">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Category
                     </a>
@@ -49,7 +50,9 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                     <label>Post content</label><br>
-                    <textarea class="new-post_textarea" name="new-post" id="new-post" ></textarea>
+                    <textarea class="new-post_textarea" name="text" id="new-post" ></textarea>
+                    <button class="btn btn-success">save</button>
+                </form>
             </div>
         </div>
 
